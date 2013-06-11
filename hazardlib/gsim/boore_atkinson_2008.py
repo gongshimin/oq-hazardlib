@@ -277,6 +277,7 @@ class BooreAtkinson2008(GMPE):
     #: Note that only the inter-event and total standard deviation for
     #: 'specified' fault type are considered (because rake angle is always
     #: specified)
+    
     COEFFS = CoeffsTable(sa_damping=5, table="""\
     IMT     c1       c2       c3      h     e1       e2       e3       e4      e5       e6      e7      Mh   sigma tau   std
     pgv    -0.87370  0.10060 -0.00334 2.54  5.00121  5.04727  4.63188  5.08210 0.18322 -0.12736 0.00000 8.50 0.500 0.256 0.560
